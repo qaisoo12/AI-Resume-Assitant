@@ -22,7 +22,7 @@ from pypdf import PdfReader
 # Configuration
 # --------------------------------------------------------------------------- #
 
-# "gemini-flash-3.6-Model" is an alias that always points to the newest Flash model,
+# "gemini-3.6-flash" is an alias that always points to the newest Flash model,
 # so the app keeps working when older model versions are retired.
 # Override it with the GEMINI_MODEL secret / environment variable if you like.
 DEFAULT_MODEL = "gemini-flash-latest"
